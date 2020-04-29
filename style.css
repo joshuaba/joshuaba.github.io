@@ -1,4 +1,13 @@
-#h1
+div.fixed 
+{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 300px;
+    /*border: 3px solid #73AD21;*/
+}
+
+.header h1
 {
     font-family: 'Times New Roman', Times, serif; 
     font-size:  45px; 
@@ -11,5 +20,72 @@ body
     font-family: 'Times New Roman', Times, serif; 
     font-size: 25px; 
     text-decoration: none; 
+    text-align: center; 
+    background-color: gray; 
+}
+
+.header
+{
+    padding: 30px; 
+    text-align: center; 
+    background: white; 
+}
+
+.topnav
+{
+    padding: 10px; 
+    overflow: hidden; 
+    background-color: mintcream; 
+}
+
+.leftcolumn
+{
+    float: left; 
+    width: 70%; 
+}
+
+.rightcolumn
+{
+    float: left; 
+    width: 25%; 
+    padding-left: 55px; 
+}
+
+.card
+{
+    background-color: white; 
+    padding: 15px; 
+    margin-top: 20px; 
+}
+
+.card1 {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
     text-align: left; 
 }
+
+
+.row:after
+{
+    content: " "; 
+    display: table; 
+    clear: both; 
+}
+@media screen and (max-width: 800px)
+{
+    .leftcolumn, .rightcolumn
+    {
+        width: 100%; 
+        padding: 0; 
+    }
+}
+
+.footer
+{
+    padding: 20px; 
+    text-align: center; 
+    background-color: gray; 
+    margin-top: 20px; 
+}
+
